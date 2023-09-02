@@ -1,4 +1,2 @@
+type Shift<T extends any[]> = T extends [infer F, ...infer L] ? L : []
 
-There is no solution yet.
-
-Would you like to [contribute to the solution](https://github.com/BFEdev/BFE.dev-solutions/blob/main/typescript/implement-shift-t_en.md)? [Contribute guideline](https://github.com/BFEdev/BFE.dev-solutions#how-to-contribute)
